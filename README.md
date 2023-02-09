@@ -14,3 +14,5 @@ Space for names and birthdays. Then a percentage of how compatible they are alon
 
 somewhat like the image found here:
 https://www.sourcecodester.com/tutorials/php/10701/simple-love-calculator.html
+
+from the simon project i was able to see how html works better and i was able to change up the simon game from what the cs260 example was originally.
