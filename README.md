@@ -18,3 +18,5 @@ https://www.sourcecodester.com/tutorials/php/10701/simple-love-calculator.html
 from the simon project i was able to see how html works better and i was able to change up the simon game from what the cs260 example was originally.
 
 from the css project using simon i was able to see how big of a visual difference css makes. i will definately be using more in the future.
+
+using html and css for the startup project i have learned that it requires a lot of small changes and going back and forth with your code to try and get what you want.
