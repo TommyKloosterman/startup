@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Love Calculator</title>
+	<style>
+		body {
+			background-color: #ffe6e6;
+			font-family: Arial, sans-serif;
+			text-align: center;
+		}
+		
+		h1 {
+			color: #cc0000;
+			margin-top: 50px;
+		}
+		
+		form {
+			margin-top: 50px;
+		}
+		
+		input[type="text"] {
+			padding: 10px;
+			border-radius: 5px;
+			border: none;
+			margin-bottom: 10px;
+			width: 200px;
+		}
+		
+		input[type="submit"] {
+			padding: 10px;
+			background-color: #cc0000;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		
+		.result {
+			font-size: 24px;
+			font-weight: bold;
+			margin-top: 50px;
+		}
+		
+		.github-link {
+			margin-top: 20px;
+		}
+		
+		.footer {
+			margin-top: 50px;
+			color: #999;
+			font-size: 12px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Love Calculator</h1>
+	
+	<form method="post">
+		<label for="name1">Your Name:</label>
+		<input type="text" name="name1" id="name1" placeholder="Enter your name">
+		
+		<label for="name2">Your Crush's Name:</label>
+		<input type="text" name="name2" id="name2" placeholder="Enter your crush's name">
+		
+		<input type="submit" value="Calculate">
+	</form>
+	
+	<div class="result">
+		<?php
+			if (isset($_POST["name1"]) && isset($_POST["name2"])) {
+				$name1 = $_POST["name1"];
+				$name2 = $_POST["name2"];
+				$score = rand(0, 100);
+				echo "<p>Your love score is $score%</p>";
+			}
+		?>
+	</div>
+	
+	<div class="github-link">
+		<label for="github">Link to GitHub repository:</label>
+		<input type="text" name="github" id="github" placeholder="https://github.com/TommyKloosterman/startup.git">
+	</div>
+	
+	<div class="footer">
+		<p>Love Calculator &copy; 2023</p>
+	</div>
+</body>
+</html>
