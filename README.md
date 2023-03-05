@@ -20,3 +20,5 @@ from the simon project i was able to see how html works better and i was able to
 from the css project using simon i was able to see how big of a visual difference css makes. i will definately be using more in the future.
 
 using html and css for the startup project i have learned that it requires a lot of small changes and going back and forth with your code to try and get what you want.
+
+learned a lot from the js addition and saw how useful it is for storing data and making things actually happen.
