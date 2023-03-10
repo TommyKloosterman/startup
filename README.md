@@ -22,3 +22,5 @@ from the css project using simon i was able to see how big of a visual differenc
 using html and css for the startup project i have learned that it requires a lot of small changes and going back and forth with your code to try and get what you want.
 
 learned a lot from the js addition and saw how useful it is for storing data and making things actually happen.
+
+Im learning that js requires a lot of trial and error when youre trying to implement something new
