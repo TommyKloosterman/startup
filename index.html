@@ -40,13 +40,19 @@
         }
 
         input[type="submit"] {
-            padding: 40px;
-            background-color: #cc0000;
-            color: #fff;
-            border: none;
-            border-radius: 15px;
-            cursor: pointer;
-        }
+  			padding: 60px 20px;
+  			background-color: #cc0000;
+  			color: #fff;
+  			border: none;
+  			border-radius: 15px;
+  			cursor: pointer;
+  			transition: background-color 0.3s ease;
+		}
+
+input[type="submit"]:hover {
+  background-color: #ff3333;
+}
+
 
         .result {
 			color: #cc0000;
@@ -69,6 +75,7 @@
   			background-color: #cc0000;
  	 		color: #fff;
 		  	border: none;
+			width: 200px;
 			border-radius: 15px;
   			padding: 10px 20px;
   			font-size: 18px;
@@ -109,8 +116,9 @@
 
     <div class="result"></div>
 
-	<button class="find-lovers-btn" onclick="location.href='lovers.html'" type="button">Find other lovers</button>
-
+	<div class="center">
+		<button class="find-lovers-btn" onclick="location.href='lovers.html'" type="button">Find other lovers</button>
+	</div>
 	
     <footer class="bg-dark text-dark text-muted">
         <div class="container-fluid">
