@@ -24,3 +24,5 @@ using html and css for the startup project i have learned that it requires a lot
 learned a lot from the js addition and saw how useful it is for storing data and making things actually happen.
 
 Im learning that js requires a lot of trial and error when youre trying to implement something new
+
+Ive learned about endpoints from the new implementation of the simon application
