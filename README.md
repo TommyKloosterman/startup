@@ -26,3 +26,5 @@ learned a lot from the js addition and saw how useful it is for storing data and
 Im learning that js requires a lot of trial and error when youre trying to implement something new
 
 Ive learned about endpoints from the new implementation of the simon application
+
+Ive learned that login information is important to make secure and safe for user privacy
