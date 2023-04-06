@@ -30,3 +30,7 @@ Ive learned about endpoints from the new implementation of the simon application
 Ive learned that login information is important to make secure and safe for user privacy
 
 WebSocket is usefull for comunicating to a server in real time without having to wait for the server to srespond which is good for something that requires communication of users
+
+I learned that React is a popular JavaScript library that allows for efficient and scalable development of web applications through its component-based architecture, virtual DOM, and easy data binding. It is also cross-platform and has a large community for support.
+
+
